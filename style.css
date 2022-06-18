@@ -125,3 +125,29 @@ p {
 .about-pics {
   box-shadow: 0 0 1rem 1rem rgb(137, 207, 228);
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h1,
+  h3,
+  p,
+  .second-half h2 {
+    text-align: center;
+  }
+
+  .project-links {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+  .dont-show {
+    display: none;
+  }
+}
